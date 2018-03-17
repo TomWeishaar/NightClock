@@ -1,5 +1,5 @@
 # NightClock
-Simple HTML NightClock (BIG text) for Chromebooks.
+Simple HTML NightClock (BIG text) for browsers.
 
 I wear glasses. But not in bed. When I'm travelling, I've been using ALARMd (https://www.zachleat.com/alarmd/) on my laptop as a night clock. It has, er had, an option to make the time appear on the screen in huge text that I could read from across the room without my glasses.
 
@@ -9,6 +9,6 @@ How hard can a simple NightClock be? Turns out not very. With the help of Tushar
 
 It has no options whatsoever. However, you can edit the CSS yourself if you like.
 
-You will also find it helpful to know that the Pixelbook option to "Keep display on" is under Settings/Device/Power/When idle. The fourth key in the top row maximizes the screen (ie, hides the browser controls), and sixth and seventh keys control screen brightness. For nightime use, I turn the screen all the way down until it's off, then brighten it just one notch.
+If you actually use this with Chrome on a Pixelbook, you will find it helpful to know that the Pixelbook option to "Keep display on" is under Settings/Device/Power/When idle. The fourth key in the top row maximizes the screen (ie, hides the browser controls), and sixth and seventh keys control screen brightness. For nightime use, I turn the screen all the way down until it's off, then brighten it just one notch. Also, in some cases you may need to change the Pixelbook's time zone by hand; if so, that's in Settings/Advanced/Date and time.
 
-Finally, in some cases you may need to change the Pixelbook's time zone by hand; if so, that's in Settings/Advanced/Date and time. Sleep well.
+With other systems you probably want to find these options before travelling. Sleep well.
