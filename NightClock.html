@@ -14,19 +14,14 @@
       </div>
       <script>
          (function () {
-             function startTime() {
-                 var today = new Date(),
-                    h = (today.getHours()>12) ? today.getHours() - 12 : today.getHours(),
-                    h = (h<1) ? 12 : h,
-                    m = (today.getMinutes()<10) ? "0" + today.getMinutes() : today.getMinutes();
-                 document.getElementById('NightClock').innerHTML = h + ":" + m;
-                 t = setTimeout(function () {
-                     startTime()
-                 }, 500);
-             }
-             startTime();
+            setInterval(function(){
+               var today, h, m;
+               today = new Date();
+               h = today.getHours(); h = (h>12) ? h - 12 : h; h = (h<1) ? 12 : h;
+               m = today.getMinutes(); m = (m<10) ? "0" + m : m;
+               document.getElementById('NightClock').innerHTML = h + ":" + m;
+            }, 1000);
          })();
       </script>
    </body>
 </html>
-
