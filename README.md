@@ -1,6 +1,8 @@
 # NightClock
 Simple HTML NightClock (BIG text) for browsers.
 
+See it in action: http://dev.open-meta.org/NightClock.html
+
 I wear glasses. But not in bed. When I'm travelling, I like to have the laptop or Chromebook that's always with me show me what time it is in letters big enough for me to read from across the room. ALARMd (https://www.zachleat.com/alarmd/) worked for me on the laptop, but the Chromebook doesn't like that it requires external CSS and JavaScript files.
 
 This project's html file has everything it needs embedded within it. It doesn't even require internet access once you've downloaded it.
